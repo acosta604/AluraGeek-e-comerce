@@ -43,7 +43,7 @@ registrar.addEventListener("click",(event)=>{
     }else{
     if (email == "" || pass==""){
         const thebody = document.querySelector("main");
-            const theAlert = createAlert ("Opss...", "All field most be filled", "wrong", "Continue", "Main Manu");
+            const theAlert = createAlert ("Opss...", "All field most be filled", "wrong", "Continue", "Main Menu");
             thebody.appendChild (theAlert);
             let  btn1 = document.querySelector(".btn1__wrong");
             let  btn2 = document.querySelector(".btn2__wrong");
